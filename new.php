@@ -40,6 +40,7 @@ if($_POST['submit']){
     }
 }
 mysqli_close(($connect));
+echo "Connection Closed";
 ?>
 </body>
 </html>
